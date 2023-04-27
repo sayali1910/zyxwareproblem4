@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+.itemcard {
+  display: flex;
+  width: 300px;
+  height: 100px;
+  background-color: bisque;
+  margin: 10px;
+  box-shadow: 5px 5px 5px;
+  align-items: center;
+}
+.productImage {
+  width: 100px;
+  height: 100px;
+}
+.productTitle {
+  margin-left: 5px;
+  width: 150px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.cartButton {
+  border: 0px;
+  background-color: transparent;
+}
